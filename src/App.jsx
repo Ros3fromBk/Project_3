@@ -5,12 +5,18 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const apiKey = import.meta.env.VITE_API_KEY
+
+  console.log(import.meta.env.VITE_API_KEY)
 
   return (
     <>
 
     <h1>
       RRR Team
+      secret code 
+      
+      apiKey
     </h1>
       <div>
         <a href="https://vitejs.dev" target="_blank">
