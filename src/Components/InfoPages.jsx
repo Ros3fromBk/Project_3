@@ -9,7 +9,7 @@ function InfoPages() {
       <form action="">
         <h1>InfoPages</h1>
         <label>
-          ShelterHub Name:
+          ShelterHub Name: {" "}
           <input name="shname" />
         </label>{" "}
         <br />
