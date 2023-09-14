@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "../Components/SearchBar.css"
 
-const SearchBar = ({ onSearch }) => {
+const SearchPage = ({ onSearch }) => {
 
     const [query, setQuery] = useState("")
 
@@ -17,19 +17,19 @@ const SearchBar = ({ onSearch }) => {
 }
 
 return (
-    <div className='searchBar'>
+    <div className='SearchBar'>
         <aside id="search">
             <form onSubmit={handleSubmit}>
                 <div>
                     <div className="row">
-                        <label htmlFor="searchBar" className="col-auto col-form-label">
+                        <label htmlFor="SearchBar" className="col-auto col-form-label">
                             {/* Search YouTube */}
                         </label>
                         <div className="col">
                             <input
-                                id="searchBar"
+                                id="SearchBar"
                                 className="form-control"
-                                name="searchBar"
+                                name="SearchBar"
                                 type="text"
                                 placeholder="Search Videos..."
                                 value={query}
@@ -47,4 +47,4 @@ return (
 )
 }
 
-export default SearchBar
+export default SearchPage
