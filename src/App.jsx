@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import NavBar from './NavBar'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 // import Home from './Components/Home'
@@ -49,7 +50,7 @@ function App() {
         <Routes>
           {/* <Route path="/" element={searchResults.length > 0 ?  */}
           {/* <VideoPage searchResults={searchResults} toggleFavorite={toggleFavorite} favoriteVideoIds={favoriteVideoIds} /> : <div></div>} /> */}
-          <Route path="/AboutMe" element={<AboutList />} />
+          <Route path="/AboutMe" element={ <h1> RRR </h1>} />
           {/* <Route path="/video/:videoId" element={<ShowPage />} /> */}
           {/* <Route path="/favorites" element={<FavoritesPage favoriteVideoIds={favoriteVideoIds} searchResults={searchResults} />} /> */}
         </Routes>

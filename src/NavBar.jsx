@@ -1,4 +1,4 @@
-import "../Components/NavBar.css"
+// import "../Components/NavBar.css"
 import { Link } from "react-router-dom"
 
 const NavBar = () => {
@@ -8,7 +8,7 @@ const NavBar = () => {
         <nav className="navbar navbar-expand">
           <div className="container">
             <Link to="/" className="navbar-brand fs-1">
-              <span>Shelter</span>For You
+              <span>Shelter</span> For You
             </Link>
             <ul className="navbar-nav">
               <li className="nav-item">
