@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import InfoPages from './Components/ResultPages'
+import ResultPages from './Components/ResultPages'
 
 import NavBar from './NavBar'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
@@ -56,7 +56,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <InfoPages />
+      <ResultPages />
 
     </>
   )
