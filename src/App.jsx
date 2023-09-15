@@ -6,8 +6,8 @@ import './App.css'
 import ResultPages from './Components/ResultPages'
 
 
-import SearchForm from './Components/Form/SearchForm.jsx';
-import ErrorPage from './Components/ErrorPopup/Errors.jsx';
+// import SearchForm from './Components/Form/SearchForm.jsx';
+// import ErrorPage from './Components/ErrorPopup/Errors.jsx';
 
 import NavBar from './Components/NavBar'
 
