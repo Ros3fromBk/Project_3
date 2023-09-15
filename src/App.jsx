@@ -3,13 +3,13 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import ResultPages from './Components/ResultPages'
+import ResultPages from './Components/ResultsPage/ResultPages'
 
 
 // import SearchForm from './Components/Form/SearchForm.jsx';
 // import ErrorPage from './Components/ErrorPopup/Errors.jsx';
 
-import NavBar from './Components/NavBar'
+import NavBar from './Components/Nav/NavBar'
 
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
@@ -25,18 +25,17 @@ function App() {
 
 
     <h1>
-      RRR Team
       secret code 
       
       apiKey
     </h1>
 
       <h1>Welcome To ShelterHub</h1>
-
+{/* 
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
-        </button>
+        </button> */}
 
       <Router>
 
@@ -58,7 +57,7 @@ function App() {
         </Routes>
       </Router>
 
-      </div>
+      {/* </div> */}
 
       <ResultPages />
 
