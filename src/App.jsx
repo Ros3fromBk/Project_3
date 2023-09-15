@@ -2,9 +2,15 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+
 import ResultPages from './Components/ResultPages'
 
-import NavBar from './NavBar'
+
+import SearchForm from './Components/Form/SearchForm.jsx';
+import ErrorPage from './Components/ErrorPopup/Errors.jsx';
+
+import NavBar from './Components/NavBar'
+
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 
@@ -17,14 +23,13 @@ function App() {
   return (
     <>
 
-    <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
+
+    <h1>
+      RRR Team
+      secret code 
+      
+      apiKey
+    </h1>
 
       <h1>Welcome To ShelterHub</h1>
 
@@ -35,7 +40,9 @@ function App() {
 
       <Router>
 
-        <NavBar />
+      <header>
+      <NavBar />
+        </header>  
       
         {/* <div>
           <SearchBar onSearch={handleSearch} />
@@ -53,9 +60,6 @@ function App() {
 
       </div>
 
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
       <ResultPages />
 
     </>
