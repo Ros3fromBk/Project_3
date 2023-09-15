@@ -3,15 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ResultPages from './Components/ResultPages'
+
+
 import SearchForm from './Components/Form/SearchForm.jsx';
-import ResultsPage from './Components/ResultsPage/Results.jsx';
 import ErrorPage from './Components/ErrorPopup/Errors.jsx';
 
 import NavBar from './Components/NavBar'
+
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-// import Home from './Components/Home'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,21 +23,13 @@ function App() {
   return (
     <>
 
+
     <h1>
       RRR Team
       secret code 
       
       apiKey
     </h1>
-
-      {/* <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div> */}
 
       <h1>Welcome To ShelterHub</h1>
 
@@ -66,8 +59,9 @@ function App() {
       </Router>
 
       </div>
-      
-    
+
+      <ResultPages />
+
     </>
   )
 }
