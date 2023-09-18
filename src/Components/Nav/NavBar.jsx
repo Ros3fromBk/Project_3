@@ -25,6 +25,11 @@ const NavBar = () => {
               </li><li className="nav-item">
                 <Link to="/Miami" className="nav-link">Miami</Link>
               </li>
+              <li className="nav-item">
+                <Link to="/NewSearch" className="nav-link">New Search</Link>
+              {/* <Route path="/NewSearch" element={ <ResultPages />} /> */}
+              </li>
+
             </ul>
           </div>
         </nav>

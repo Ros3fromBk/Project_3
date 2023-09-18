@@ -1,15 +1,18 @@
 import team from "../Util/Map/team.json"
-import About from "../AboutPage/About.jsx"
-// import "./AboutList.css"
+import reactLogo from "../../../src/assets/react.svg"
+import About from "./AboutInfo.jsx"
+import "./About.css"
 
 function AboutList() {
-
-    let listOfEngineers = team.map((engineers, index) => { return (<About key={index} engineers={engineers} />) })
-
+    // console.log(team)
+    let listOfEngineers = team.map((engineer, index) => { return (<About key={index} engineer={engineer} />) })
     return (
 
         <>
-            <h1 className="headerForAbout">MEET THE TEAM</h1>
+            <h1> Resources</h1>
+            <img className="reactlogo" src={reactLogo} />
+
+            <h2 className="headerForAbout">MEET THE TEAM</h2>
             <div className="Engineers">{listOfEngineers}</div>
         </>
     )
