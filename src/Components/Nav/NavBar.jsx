@@ -1,4 +1,4 @@
-// import "../Components/
+import "../Nav/NavBar.css"
 import { Link } from "react-router-dom"
 
 const NavBar = () => {
@@ -8,18 +8,28 @@ const NavBar = () => {
         <nav className="navbar navbar-expand">
           <div className="container">
             <Link to="/" className="navbar-brand fs-1">
-              <span>Shelter</span> For You
+              <span>Shelter For You</span> 
             </Link>
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link to="/" className="nav-link">  Home</Link>
               </li>
               <li className="nav-item">
-                <Link to="/AboutMe" className="nav-link"> About </Link>
+                <Link to="/About" className="nav-link"> About </Link>
               </li>
               <li className="nav-item">
                 <Link to="/NewYork" className="nav-link">New York</Link>
               </li>
+              <li className="nav-item">
+                <Link to="/LosAngeles" className="nav-link">Los Angeles</Link>
+              </li><li className="nav-item">
+                <Link to="/Miami" className="nav-link">Miami</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/NewSearch" className="nav-link">New Search</Link>
+              {/* <Route path="/NewSearch" element={ <ResultPages />} /> */}
+              </li>
+
             </ul>
           </div>
         </nav>

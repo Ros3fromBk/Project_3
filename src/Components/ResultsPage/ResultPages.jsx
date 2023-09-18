@@ -7,7 +7,7 @@ function ResultPages() {
   return (
     <>
       <form action="">
-        <h1>InfoPages</h1>
+        <h3>Start A New Search</h3>
         <label>
           ShelterHub Name: {" "}
           <input name="shname" />

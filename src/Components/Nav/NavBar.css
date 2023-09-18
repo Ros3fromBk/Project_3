@@ -1,0 +1,42 @@
+.nav-item{
+  list-style-type: none;
+}
+header{
+  /* flex-wrap: wrap; */
+  /* display:flex ; */
+flex-direction: row;
+  /* display: inline; */
+ 
+}
+span {
+    color: rgb(24, 96, 155);
+    font-size: 40px;
+  }
+  
+  
+  header {
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: azure;
+  }
+  
+  li {
+    font-size: larger;
+    font-family: cursive ;
+    flex-direction: row ;
+  }
+  
+  li:hover {
+    font-size: x-large;
+    font-family: fantasy;
+    color:cadetblue ;
+    background-color: rgba(255, 228, 196, 0.638);
+    border-radius: 60%;
+    border: 2px solid brown;
+  }
+  
+  .nav-link:hover {
+    
+   font-weight: bolder;
+  }
+  
