@@ -2,16 +2,20 @@
   list-style-type: none;
 }
 header{
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  /* display:flex ; */
+flex-direction: row;
+  /* display: inline; */
+ 
 }
 span {
     color: rgb(24, 96, 155);
-    font-size: 50px;
+    font-size: 40px;
   }
   
   
   header {
-    border: 4px solid black;
+    border: 2px solid black;
     border-radius: 100px;
     background-color: azure;
   }
