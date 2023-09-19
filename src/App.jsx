@@ -26,10 +26,10 @@ function App() {
     <>
 
 
-      <h3>
+{/*       <h3>
         secret code
         apiKey
-      </h3>
+      </h3> */}
 
       <h1>Welcome To ShelterHub</h1>
       {/* 
