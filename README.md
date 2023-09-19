@@ -4,6 +4,7 @@
  Clients will be able to locate shelters by zipcode in following udpdates as well as other added features .
 
  Here are our resources (also listed in the about)
+ 
 ~https://rapidapi.com/topapis/api/homeless-shelter 
 
 ~https://group-project-3.netlify.app/
