@@ -20,7 +20,7 @@ function App() {
   const [count, setCount] = useState(0)
   const apiKey = import.meta.env.VITE_API_KEY
 
-  console.log(import.meta.env.VITE_API_KEY)
+  // console.log(import.meta.env.VITE_API_KEY)
 
   return (
     <>
